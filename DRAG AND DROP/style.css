@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: #020617;
+    color: white;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #38bdf8;
+}
+
+/* INPUT */
+.task-input {
+    margin-bottom: 20px;
+}
+
+.task-input input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 6px;
+    border: none;
+}
+
+.task-input button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    background: #22c55e;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* BOARD */
+.board {
+    display: flex;
+    gap: 20px;
+}
+
+/* COLUMN */
+.list {
+    flex: 1;
+    background: #1e293b;
+    padding: 15px;
+    border-radius: 10px;
+    min-height: 400px;
+}
+
+/* CARD */
+.card {
+    background: #f1f5f9;
+    color: black;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    cursor: grab;
+}
+
+/* DELETE BUTTON */
+.delete {
+    cursor: pointer;
+    color: red;
+}
